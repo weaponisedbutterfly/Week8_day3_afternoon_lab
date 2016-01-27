@@ -8,4 +8,4 @@ var food2 = new Food('dairylea', 1);
 var food3 = new Food('egg', 1);
 var food4 = new Food('roastBeef', 5);
 
-module.exports = food1;
+module.exports = food4;
