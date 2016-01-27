@@ -8,7 +8,7 @@ describe('Hero', function(){
     assert.equal('Corban', hero.name);
   });
 
-  it('Corbans health should increase by 3 to 78', function(){
+  it("Corban's health should increase by 3 to 78", function(){
   hero.health = 75;
   hero.eat();
   assert.equal(80, hero.health);
