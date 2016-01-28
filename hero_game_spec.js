@@ -1,5 +1,6 @@
 var hero = require('./hero_game');
 var food = require('./hero_game_food');
+var hamlin = require('./hero_game_village')
 var assert = require('assert');
 
 
@@ -16,8 +17,18 @@ describe('Hero', function(){
 });
 
 describe('Food', function(){
+  console.log(food);
   it('name should be roastBeef', function(){
     assert.equal('roastBeef', food.name);
   });
+
+
+  describe('hamlin', function(){
+    it(' should be overrun by 7000000 rats', function(){
+      hamlin.ratNum = 700000
+      assert.equal(700000, hamlin.ratNum);
+    });
+  });
+
 });
 

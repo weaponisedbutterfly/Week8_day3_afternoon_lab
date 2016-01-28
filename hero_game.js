@@ -15,6 +15,7 @@ var Hero = function(name, health, favFood){
     }
     console.log('That ' + food.name + ' was very satisfying. My health is now ' + this.health);
   }
+  
 }
 
 var hero1 = new Hero('Corban', 100, 'banana');
