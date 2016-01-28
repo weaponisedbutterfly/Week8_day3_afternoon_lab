@@ -17,4 +17,4 @@ hamlin.infested();
 
 
 
-module.exports = hamlin
+module.exports = Village;
